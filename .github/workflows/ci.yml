@@ -4,8 +4,9 @@ on:
     branches:
       - master
   pull_request:
-    branches:
-      - masterjobs:
+    branches: 
+      - master
+jobs:
   build:    
     runs-on: ${{ matrix.os }}
     strategy:
